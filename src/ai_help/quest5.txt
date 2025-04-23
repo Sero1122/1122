@@ -1,0 +1,8 @@
+echo "cd ~/1122/src/ai_help" >> quest5.txt
+echo "> key_parts.txt" >> quest5.txt
+echo "for file in key/*.key; do cat \"\$file\" >> key_parts.txt; done" >> quest5.txt
+echo "nano unifier.sh" >> quest5.txt
+echo "FILES=key/*" >> quest5.txt
+echo "chmod +x unifier.sh" >> quest5.txt
+echo "./unifier.sh" >> quest5.txt
+echo "cat main.key" >> quest5.txt
