@@ -9,9 +9,6 @@ do
     then
         tmp=$(< $file)
         KEY=$(($KEY + $tmp))
-    else
-        KEY=0
-        break
     fi
 done
 
